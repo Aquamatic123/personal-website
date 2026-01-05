@@ -27,7 +27,7 @@ const heroContainer: React.CSSProperties = {
   textAlign: 'center'
 };
 
-const primaryBtn: React.CSSProperties = {
+{/*const primaryBtn: React.CSSProperties = {
   padding: '1rem 2.5rem',
   backgroundColor: 'var(--habs-red)',
   color: 'white',
@@ -36,4 +36,4 @@ const primaryBtn: React.CSSProperties = {
   fontWeight: 'bold',
   boxShadow: '0 4px 14px 0 rgba(227, 24, 55, 0.39)',
   transition: 'transform 0.2s ease'
-};
+  }; */}
