@@ -8,9 +8,9 @@ export default function Hero() {
         Software Engineering Student @Polytechnique
       </h2>
       
-      <div style={{ marginTop: '3rem' }}>
-        <a href="#projects" style={primaryBtn}>View My Projects</a>
-      </div>
+      {/*<div style={{ marginTop: '3rem' }}>
+       <a href="#projects" style={primaryBtn}>View My Projects</a>
+       </div> */}
     </section>
   );
 }
