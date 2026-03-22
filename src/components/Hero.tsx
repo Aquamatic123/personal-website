@@ -5,7 +5,7 @@ export default function Hero() {
         Leo Rouleau
       </h1>
       <h2 style={{ fontSize: 'clamp(1.5rem, 5vw, 3rem)', color: 'var(--text-dim)' }}>
-        Software Engineering Student @Polytechnique
+        Software Engineering Student @PolyMTL
       </h2>
       
       {/*<div style={{ marginTop: '3rem' }}>
