@@ -1,4 +1,7 @@
-/* src/index.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
   --bg-dark: #0a101e;       
   --habs-red: #e31837;    
@@ -7,6 +10,7 @@
   --text-main: #f0f6fc;
   --text-dim: #8b949e;
   --border: #30363d;  
+  --max-width: 1100px;
 }
 
 
