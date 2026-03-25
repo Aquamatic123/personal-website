@@ -37,3 +37,12 @@ section {
 html {
   scroll-behavior: smooth;
 }
+.hero-icon {
+  font-size: 2rem;
+  color: var(--text-main);
+  transition: color 0.2s ease-in-out;
+}
+
+.hero-icon:hover {
+  color: var(--habs-blue); /* Let's go Habs! */
+}
