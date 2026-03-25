@@ -20,13 +20,12 @@ export default function About() {
 }
 
 const aboutContainer: React.CSSProperties = {
-  height : '90vh',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
   maxWidth: '800px',
   margin: '0 auto',
-  padding: '0 2rem',
+  padding: '80px 2rem',
   textAlign: 'center'
 };
