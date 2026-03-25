@@ -1,8 +1,14 @@
 import { FaGithub, FaLinkedin, FaFilePdf } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section style={heroContainer}>
+      <motion.section
+      style={heroContainer}
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      >
 	  <h1 style={{ fontSize: 'clamp(2.5rem, 8vw, 5rem)', fontWeight: 800, margin: 0 }}>
         Leo Rouleau
       </h1>
@@ -10,7 +16,12 @@ export default function Hero() {
         Software Engineering Student @PolyMTL
       </h2>
       
-      <div style={socialContainer}>
+    <motion.div
+      style={socialContainer}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.4, duration: 0.8 }}
+      >
         <a href="https://www.linkedin.com/in/leo-rouleau-364374302/" target="_blank" rel="noreferrer" className="hero-icon">
 	  <FaLinkedin />
 	</a>
@@ -21,8 +32,8 @@ export default function Hero() {
 	  <FaFilePdf />
 	</a>
 
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 }
 
