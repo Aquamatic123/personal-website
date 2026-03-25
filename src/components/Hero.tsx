@@ -7,10 +7,6 @@ export default function Hero() {
       <h2 style={{ fontSize: 'clamp(1.5rem, 5vw, 3rem)', color: 'var(--text-dim)' }}>
         Software Engineering Student @PolyMTL
       </h2>
-      
-      {/*<div style={{ marginTop: '3rem' }}>
-       <a href="#projects" style={primaryBtn}>View My Projects</a>
-       </div> */}
     </section>
   );
 }
@@ -26,14 +22,3 @@ const heroContainer: React.CSSProperties = {
   padding: '0 2rem',
   textAlign: 'center'
 };
-
-{/*const primaryBtn: React.CSSProperties = {
-  padding: '1rem 2.5rem',
-  backgroundColor: 'var(--habs-red)',
-  color: 'white',
-  textDecoration: 'none',
-  borderRadius: '4px',
-  fontWeight: 'bold',
-  boxShadow: '0 4px 14px 0 rgba(227, 24, 55, 0.39)',
-  transition: 'transform 0.2s ease'
-  }; */}
