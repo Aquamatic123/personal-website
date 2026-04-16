@@ -5,7 +5,7 @@ Deployed via **Cloudflare Pages**.
 
 ## Project Structure
 - `/src`: React components and logic
-- `/public`: Static assets (favicon, etc.)
+- `/public`: Static assets
 
 ## Development
 - `npm run dev`: Start local development server
