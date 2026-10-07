@@ -28,7 +28,7 @@ export default function Hero() {
 	<a href="https://github.com/Aquamatic123" target="_blank" rel="noreferrer" className="hero-icon">
 	  <FaGithub />
 	</a>
-	<a href="/CV_LEO_ROULEAU.pdf" target="_blank" rel="noreferrer" className="hero-icon">
+	<a href="/CV_LEO_ROULEAU_1.pdf" target="_blank" rel="noreferrer" className="hero-icon">
 	  <FaFilePdf />
 	</a>
 
